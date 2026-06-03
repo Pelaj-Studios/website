@@ -53,4 +53,4 @@ jobs:
                   SSH_PORT: ${{ secrets.SSH_PORT }}
               run: |
                   ssh -i ~/.ssh/deploy_key -p "$SSH_PORT" "$SSH_USER@$SSH_HOST" \
-                    "sudo systemctl restart pt-website && sudo systemctl status pt-website --no-pager"
+                    "sudo /usr/bin/systemctl restart pt-website"
