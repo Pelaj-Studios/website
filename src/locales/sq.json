@@ -1,0 +1,90 @@
+{
+    "nav": {
+        "home": "Ballina",
+        "services": "Shërbimet",
+        "about": "Rreth nesh",
+        "contact": "Kontakti",
+        "brand": "Pelaj",
+        "open": "Hap navigimin",
+        "close": "Mbyll navigimin",
+        "footerLabel": "Navigimi i footer-it",
+        "languageLabel": "Ndërro gjuhën"
+    },
+    "hero": {
+        "brand": "PELAJ STUDIOS",
+        "tagline": "Zhvillim softueri dhe përkthim shqip-anglisht.",
+        "headline": "Punë e kryer me cilësi, korrektësi, dhe efikasitet.",
+        "contact": "Na kontaktoni",
+        "services": "Shërbimet tona"
+    },
+    "services": {
+        "title": "Shërbimet",
+        "items": [
+            {
+                "title": "Sisteme Softuerike",
+                "description": "Ne ofrojmë softuer për të gjithë - nga një market i thjeshtë deri te organizata ndërkombtare. Të ndërtuara parimisht me qëllim korrektësie mbi të gjitha, cilësi, dhe efikasitet."
+            },
+            {
+                "title": "Përkthim Shqip-Anglisht-Shqip",
+                "description": "Përkthim shqip-anglisht-shqip nga profesionistë me mbi 20 vjet përvojë në industri, përfshirë punë me organizata si Organizaten e Kombeve të Bashkuara(OKB), EULEX, Gjykatën Ndërkombtare Penale(ICC/GjPN), e tjerë."
+            },
+            {
+                "title": "Aplikacione Gjeografike dhe Dashboard-e",
+                "description": "Kur është nevoja për korrelacione të hartave të ndryshme për projekte apo planifikime të ndryshme në terren dhe jo vetëm, ne jemi aty me dashboard-e që ju lëjnë të mbresëlënur."
+            },
+            {
+                "title": "Automatizim dhe Përpunim të Dhënash",
+                "description": "Menaxhimin e dokumenteve, raporteve të ndryshme, nxjerrjen e të dhënave dhe punën administrative të përsëritur ne e perfektojmë me zgjidhjet tona softuerike sigurojnë që nuk ruani vetëm kohë, por edhe fonde."
+            },
+            {
+                "title": "Prokurim Publik dhe Mbështetje Projektesh",
+                "description": "Specifikime teknike, planifikim zbatimi dhe dokumentim për projekte digjitalizimi ku softueri duhet të jetë i qartë para se të ndërtohet."
+            }
+        ]
+    },
+    "about": {
+        "label": "Rreth nesh",
+        "headline": "Thellësi inxhinierike, kontekst lokal dhe përvojë përkthimi që nuk ka filluar dje.",
+        "body": "Pelaj Studios kombinon inxhinierinë softuerike me njohuri lokale administrative dhe përvojë profesionale në përkthim shqip-anglisht. Ne punojmë në sisteme që duhet të mbajnë të dhëna reale, përdorues realë dhe presion institucional real.",
+        "support": "Ekipi ynë i përkthimit ka mbi 20 vjet përvojë në përkthim shqip-anglisht-shqip, përfshirë punë me organizata multinacionale. Në softuer fokusohemi në sisteme të shpërndara, aplikacione gjeografike, automatizim dhe dashboard-e që i bëjnë operacionet komplekse të kuptueshme."
+    },
+    "whyUs": {
+        "label": "Pse ne?",
+        "headline": "Ne duam cilësinë, besueshmërinë, dhe efikasitetin mbi zgjidhjeve të shpejta.",
+        "description": "Softueri ynë dhe përkthimet tona janë të pamposhtura kur vie puna te cilësia, siguria, dhe efikasiteti. Ne krenohemi me detajueshmërinë që tregojmë, automatizimin dhe dashboard-et që lejojnë vendim-marrje të saktë.",
+        "reasons": [
+            {
+                "title": "Mendim Sistemesh",
+                "description": "Ne punojmë me filozofinë e dizajnimit të sistemeve, qoftëse për një program të thjeshtë apo një faqe të përkthyer."
+            },
+            {
+                "title": "Përvojë e Lartë në Përkthim",
+                "description": "Përkthimi ynë shqip-anglisht-shqip mbështetet në më shumë se dy dekada punë profesionale dhe mjedise multinacionale."
+            },
+            {
+                "title": "Polica Kundër Vonesës",
+                "description": "Ndoshta afatet i kemi pak më të gjata, po gjithmonë takohen. Parimisht besojmë që puna e cilësisë së lartë kërkon kohë dhe mund e djersë. Këtë e garanton Pelaj Studios."
+            },
+            {
+                "title": "Zbatim Lokal",
+                "description": "Dorëzim nga Kosova, komunikim direkt dhe kontekst administrativ për të kuptuar proceset institucionale."
+            }
+        ]
+    },
+    "contact": {
+        "label": "Kontakti",
+        "headline": "Na sillni pjesën e vështirë.",
+        "description": "Dërgoni sistemin, procesin, hartën, dashboard-in, dokumentin e prokurimit ose kërkesën për përkthim me të cilën po merreni. Do t'ju tregojmë çfarë mund të bëhet, sqarohet ose përmirësohet.",
+        "email": "E-mail",
+        "phone": "Telefoni"
+    },
+    "footer": {
+        "description": "Sisteme të shpërndara, geo-dashboard-e dhe përkthim shqip-anglisht me bazë në Kosovë.",
+        "rights": "© 2026 Pelaj Studios. Të gjitha të drejtat e rezervuara."
+    },
+    "theme": {
+        "dark": "Errët",
+        "light": "Dritë",
+        "modeLabel": "Tema: {mode}. Kliko për ta ndërruar."
+    }
+}

@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Manrope:wght@400;500;600;700;800&display=swap');
+@import 'tailwindcss';
+@plugin '@tailwindcss/typography';
+
+@custom-variant dark (&:is(.dark *));
+
+:root {
+    --background: #ffffff;
+    --foreground: #0c0a09;
+    --card: #f5f5f5;
+    --card-foreground: #0c0a09;
+    --popover: #ffffff;
+    --popover-foreground: #0c0a09;
+    --primary: #0c0a09;
+    --primary-foreground: #ffffff;
+    --secondary: #e7e5e4;
+    --secondary-foreground: #0c0a09;
+    --muted: #57534e;
+    --muted-foreground: #525252;
+    --accent: #e7e5e4;
+    --accent-foreground: #0c0a09;
+    --border: #d4d4d4;
+    --input: #d4d4d4;
+    --ring: #0c0a09;
+    --selection: #000000;
+    --selection-foreground: #ffffff;
+    --scrollbar-track: transparent;
+    --scrollbar-thumb: #d4d4d4;
+    --scrollbar-thumb-hover: #a8a29e;
+    --grid-line: rgba(120, 113, 108, 0.06);
+    --grid-line-strong: rgba(120, 113, 108, 0.08);
+    --shadow-hard: #0c0a09;
+}
+
+.dark {
+    --background: #000000;
+    --foreground: #f5f5f5;
+    --card: #111111;
+    --card-foreground: #f5f5f5;
+    --popover: #111111;
+    --popover-foreground: #f5f5f5;
+    --primary: #f5f5f5;
+    --primary-foreground: #000000;
+    --secondary: #1a1a1a;
+    --secondary-foreground: #f5f5f5;
+    --muted: #d4d4d4;
+    --muted-foreground: #d4d4d4;
+    --accent: #f5f5f5;
+    --accent-foreground: #000000;
+    --border: #2a2a2a;
+    --input: #2a2a2a;
+    --ring: #f5f5f5;
+    --selection: #ffffff;
+    --selection-foreground: #000000;
+    --scrollbar-track: transparent;
+    --scrollbar-thumb: #2a2a2a;
+    --scrollbar-thumb-hover: #525252;
+    --grid-line: rgba(255, 255, 255, 0.06);
+    --grid-line-strong: rgba(255, 255, 255, 0.08);
+    --shadow-hard: #f5f5f5;
+}
+
+@theme inline {
+    --color-background: var(--background);
+    --color-foreground: var(--foreground);
+    --color-card: var(--card);
+    --color-card-foreground: var(--card-foreground);
+    --color-popover: var(--popover);
+    --color-popover-foreground: var(--popover-foreground);
+    --color-primary: var(--primary);
+    --color-primary-foreground: var(--primary-foreground);
+    --color-secondary: var(--secondary);
+    --color-secondary-foreground: var(--secondary-foreground);
+    --color-muted: var(--muted);
+    --color-muted-foreground: var(--muted-foreground);
+    --color-accent: var(--accent);
+    --color-accent-foreground: var(--accent-foreground);
+    --color-border: var(--border);
+    --color-input: var(--input);
+    --color-ring: var(--ring);
+}
+
+body {
+    background: var(--background);
+    background-image:
+        linear-gradient(var(--grid-line-strong) 1px, transparent 1px),
+        linear-gradient(90deg, var(--grid-line) 1px, transparent 1px);
+    background-size: 42px 42px;
+    color: var(--foreground);
+}
+
+.dark body {
+    background: var(--background);
+    background-image:
+        linear-gradient(var(--grid-line-strong) 1px, transparent 1px),
+        linear-gradient(90deg, var(--grid-line) 1px, transparent 1px);
+    background-size: 42px 42px;
+    color: var(--foreground);
+}
+
+::selection {
+    background: var(--selection);
+    color: var(--selection-foreground);
+}
+
+* {
+    scrollbar-color: var(--scrollbar-thumb) var(--scrollbar-track);
+    scrollbar-width: thin;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--scrollbar-track);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--scrollbar-thumb);
+    border: 3px solid var(--background);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--scrollbar-thumb-hover);
+}

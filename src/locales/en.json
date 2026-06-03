@@ -1,0 +1,90 @@
+{
+    "nav": {
+        "home": "Home",
+        "services": "Services",
+        "about": "About",
+        "contact": "Contact",
+        "brand": "Pelaj",
+        "open": "Open navigation",
+        "close": "Close navigation",
+        "footerLabel": "Footer navigation",
+        "languageLabel": "Switch language"
+    },
+    "hero": {
+        "brand": "PELAJ STUDIOS",
+        "tagline": "Software development and Albanian-English translation.",
+        "headline": "Work done with quality, correctness, and efficiency.",
+        "contact": "Contact Us",
+        "services": "Our services"
+    },
+    "services": {
+        "title": "Services",
+        "items": [
+            {
+                "title": "Software Systems",
+                "description": "We offer software for all - from small shops to international organizations. Built with correctness at the forefront, quality, and efficiency."
+            },
+            {
+                "title": "Albanian-English Translation",
+                "description": "Albanian-English-Albanian translation by professionals with over 20 years of industry experience, including work with organizations such as the United Nations(UN), EULEX, the International Criminal Court(ICC), and more."
+            },
+            {
+                "title": "Geo Applications & Dashboards",
+                "description": "Map-based tools, location-aware workflows and polished dashboards for teams that need to understand places, assets, field activity or regional data fast."
+            },
+            {
+                "title": "Automation & Data Processing",
+                "description": "Document handling, reporting pipelines, data extraction and repetitive administrative workflows perfected by our software solutions ensure you save not only on time, but on funds as well."
+            },
+            {
+                "title": "Public Procurement & Project Support",
+                "description": "Technical specifications, implementation planning and documentation for digitalization projects where the software has to be clear before it is built."
+            }
+        ]
+    },
+    "about": {
+        "label": "About",
+        "headline": "Engineering and translation done right, with the experience to back it up.",
+        "body": "Pelaj Studios combines software development with local administrative knowledge and professional translation experience. Our systems are reliable, efficient, and vigorously tested, both in software and in translation.",
+        "support": "Our translation team has more than 20 years of industry experience with multinational, well-known organizations on serious cases. On the software side, we focus on distributed systems, automation and dashboards that lead to correct decision making."
+    },
+    "whyUs": {
+        "label": "Why us?",
+        "headline": "We prefer quality, reliability, and efficiency over quick fixes.",
+        "description": "Our software and translation is unbeatable in terms of quality, security, and efficiency. We pride ourselves on our attention to detail, scalability, and correct results over all else.",
+        "reasons": [
+            {
+                "title": "Systems Thinking",
+                "description": "We build everything with a systems-based approach, even when it comes to the simplest of software or even a single page of translation."
+            },
+            {
+                "title": "Senior Translation Experience",
+                "description": "Our translation work is backed by over two decades in professional and multinational environments."
+            },
+            {
+                "title": "No Delay Policy",
+                "description": "Our deadlines are longer, but they are always met. We believe that everything that is robust takes time and real effort. This is the Pelaj Studios guarantee."
+            },
+            {
+                "title": "Local Execution",
+                "description": "Kosovo-based delivery, direct communication and enough administrative context to understand institutional workflows."
+            }
+        ]
+    },
+    "contact": {
+        "label": "Contact",
+        "headline": "Bring us the hard part.",
+        "description": "Send the system, workflow, map, dashboard, procurement document or translation requirement you are dealing with. We will tell you what can be built, clarified or improved.",
+        "email": "E-mail",
+        "phone": "Phone"
+    },
+    "footer": {
+        "description": "Software development, and Albanian-English-Albanian translation services.",
+        "rights": "© 2026 Pelaj Studios. All rights reserved."
+    },
+    "theme": {
+        "dark": "Dark",
+        "light": "Light",
+        "modeLabel": "Theme mode: {mode}. Click to switch mode."
+    }
+}
