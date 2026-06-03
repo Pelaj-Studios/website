@@ -18,9 +18,10 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 22
+          cache: npm
 
       - name: Install dependencies
-        run: npm install
+        run: npm ci
 
       - name: Build
         run: npm run build
@@ -36,14 +37,14 @@ jobs:
           chmod 600 ~/.ssh/deploy_key
           ssh-keyscan -H "$SSH_HOST" >> ~/.ssh/known_hosts
 
-      - name: Deploy server output
+      - name: Deploy output
         env:
           SSH_HOST: ${{ secrets.SSH_HOST }}
           SSH_USER: ${{ secrets.SSH_USER }}
           SSH_PORT: ${{ secrets.SSH_PORT }}
         run: |
           rsync -az --delete -e "ssh -i ~/.ssh/deploy_key -p $SSH_PORT" \
-            .output/server/ "$SSH_USER@$SSH_HOST:/var/www/pt-website/"
+            .output/ "$SSH_USER@$SSH_HOST:/var/www/pt-website/.output/"
 
       - name: Restart service
         env:
@@ -52,4 +53,4 @@ jobs:
           SSH_PORT: ${{ secrets.SSH_PORT }}
         run: |
           ssh -i ~/.ssh/deploy_key -p "$SSH_PORT" "$SSH_USER@$SSH_HOST" \
-            "sudo systemctl restart pt-website"
+            "sudo systemctl restart pt-website && sudo systemctl status pt-website --no-pager"
