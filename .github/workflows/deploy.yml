@@ -43,7 +43,7 @@ jobs:
           SSH_PORT: ${{ secrets.SSH_PORT }}
         run: |
           rsync -az --delete -e "ssh -i ~/.ssh/deploy_key -p $SSH_PORT" \
-            .output/server/ "$SSH_USER@$SSH_HOST:/var/www/server/"
+            .output/server/ "$SSH_USER@$SSH_HOST:/var/www/pt-website/"
 
       - name: Restart service
         env:
