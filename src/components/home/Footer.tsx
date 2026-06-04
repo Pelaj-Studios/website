@@ -2,10 +2,11 @@ import clsx from 'clsx'
 import { useLocale } from '#/lib/locale'
 
 const footerLinks = [
-    { href: '#home', labelKey: 'home' },
-    { href: '#services', labelKey: 'services' },
-    { href: '#about', labelKey: 'about' },
-    { href: '#contact', labelKey: 'contact' },
+    { href: '#home', labelKey: 'home', newTab: false },
+    { href: '#services', labelKey: 'services', newTab: false },
+    { href: '#about', labelKey: 'about', newTab: false },
+    { href: '#contact', labelKey: 'contact', newTab: false },
+    { href: 'https://github.com/Pelaj-Studios', labelKey: 'github', newTab: true }
 ] as const
 
 export default function Footer() {
@@ -43,6 +44,7 @@ export default function Footer() {
                                 key={link.href}
                                 className="text-muted-foreground hover:text-foreground"
                                 href={link.href}
+                                target={link.newTab ? "_blank" : "_self"}
                             >
                                 {t.nav[link.labelKey]}
                             </a>
