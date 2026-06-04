@@ -6,7 +6,11 @@ const footerLinks = [
     { href: '#services', labelKey: 'services', newTab: false },
     { href: '#about', labelKey: 'about', newTab: false },
     { href: '#contact', labelKey: 'contact', newTab: false },
-    { href: 'https://github.com/Pelaj-Studios', labelKey: 'github', newTab: true }
+    {
+        href: 'https://github.com/Pelaj-Studios',
+        labelKey: 'github',
+        newTab: true,
+    },
 ] as const
 
 export default function Footer() {
@@ -44,7 +48,7 @@ export default function Footer() {
                                 key={link.href}
                                 className="text-muted-foreground hover:text-foreground"
                                 href={link.href}
-                                target={link.newTab ? "_blank" : "_self"}
+                                target={link.newTab ? '_blank' : '_self'}
                             >
                                 {t.nav[link.labelKey]}
                             </a>
