@@ -78,6 +78,11 @@
         "email": "E-mail",
         "phone": "Phone"
     },
+    "payments": {
+        "label": "Payments",
+        "headline": "Pay in the way that works for you.",
+        "description": "We currently accept Visa, Mastercard, Paysera, TEB Bank, Raiffeisen Bank, ProCredit Bank, and other local payment methods."
+    },
     "footer": {
         "description": "Software development, and Albanian-English-Albanian translation services.",
         "rights": "© 2026 Pelaj Studios. All rights reserved."

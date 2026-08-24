@@ -5,6 +5,7 @@ import Services from '#/components/home/Services'
 import About from '#/components/home/About'
 import WhyUs from '#/components/home/WhyUs'
 import Contact from '#/components/home/Contact'
+import PaymentMethods from '#/components/home/PaymentMethods'
 import Footer from '#/components/home/Footer'
 import { LocaleProvider } from '#/lib/locale'
 
@@ -20,6 +21,7 @@ function App() {
                 <About />
                 <WhyUs />
                 <Contact />
+                <PaymentMethods />
                 <Footer />
             </main>
         </LocaleProvider>
