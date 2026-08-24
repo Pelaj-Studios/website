@@ -78,6 +78,11 @@
         "email": "E-mail",
         "phone": "Telefoni"
     },
+    "payments": {
+        "label": "Pagesat",
+        "headline": "Paguani në mënyrën që ju përshtatet.",
+        "description": "Aktualisht pranojmë Visa, Mastercard, Paysera, TEB Bank, Raiffeisen Bank, ProCredit Bank dhe metoda të tjera lokale të pagesës."
+    },
     "footer": {
         "description": "Sisteme të shpërndara, geo-dashboard-e dhe përkthim shqip-anglisht me bazë në Kosovë.",
         "rights": "© 2026 Pelaj Studios. Të gjitha të drejtat e rezervuara."
