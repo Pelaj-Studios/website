@@ -6,8 +6,8 @@ import { useLocale } from '#/lib/locale'
 const contactItems = [
     {
         labelKey: 'email',
-        value: 'pelajstudios@gmail.com',
-        href: 'mailto:pelajstudios@gmail.com',
+        value: 'contact@pelajstudios.com',
+        href: 'mailto:contact@pelajstudios.com',
         icon: Mail,
     },
     {
