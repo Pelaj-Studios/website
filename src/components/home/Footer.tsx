@@ -62,7 +62,7 @@ export default function Footer() {
                             className="hover:text-foreground"
                             href="mailto:pelajstudios@gmail.com"
                         >
-                            pelajstudios@gmail.com
+                            contact@pelajstudios.com
                         </a>
                         <a
                             className="hover:text-foreground"
