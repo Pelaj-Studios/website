@@ -60,7 +60,7 @@ export default function Footer() {
                     <div className="flex flex-col gap-1 md:items-end">
                         <a
                             className="hover:text-foreground"
-                            href="mailto:pelajstudios@gmail.com"
+                            href="mailto:contact@pelajstudios.com"
                         >
                             contact@pelajstudios.com
                         </a>
